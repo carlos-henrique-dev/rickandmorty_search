@@ -1,0 +1,24 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.content .header {
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px;
+}
+
+.content .cards {
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px 5px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
